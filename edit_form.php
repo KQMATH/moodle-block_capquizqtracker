@@ -30,8 +30,8 @@ class block_capquizqtracker_edit_form extends block_edit_form {
 
         // A sample string variable with a default value.
         $mform->addElement('text', 'config_text', get_string('blockstring', 'block_capquizqtracker'), 'cols="30" rows="5"');
-        $mform->setDefault('config_text', get_string('question_problem_details', 'block_quizqtracker'));
-        $mform->setType('config_text', PARAM_TEXT);        
+        $mform->setDefault('config_text', get_string('question_problem_details', 'block_capquizqtracker'));
+        $mform->setType('config_text', PARAM_TEXT);
 
     }
 }

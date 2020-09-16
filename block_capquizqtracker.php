@@ -16,7 +16,7 @@
 
 /**
  * Main interface to Question Tracker
- * 
+ *
  * Provides block for registering question issues for quiz module
  *
  * @package     block_capquizqtracker
@@ -64,6 +64,11 @@ class block_capquizqtracker extends block_base {
 
         // Get submitted parameters.
         $cmid = optional_param('id', null, PARAM_INT);
+
+        if (is_null($cmid)) {
+            return $this->content->text;
+        }
+
         $capquiz = new capquiz($cmid);
 
         if (has_capability('mod/capquiz:instructor', $capquiz->context())) {

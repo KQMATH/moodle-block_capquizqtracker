@@ -33,4 +33,4 @@ $string['descconfig'] = 'Description of the config section';
 $string['descfoo'] = 'Config description';
 $string['headerconfig'] = 'Config section header';
 $string['labelfoo'] = 'Config label';
-$string['question_problem_details'] = 'If you have feedback for a question, please fill in the form below.';
+$string['question_problem_details'] = 'If you have question about or feedback to a question or its solution, please fill in the form below.';

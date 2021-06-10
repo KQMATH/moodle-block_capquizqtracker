@@ -98,8 +98,9 @@ class block_capquizqtracker extends block_base {
 
         $this->userid = $USER->id;
 
-        $quba = $capquiz->question_usage();
-        $qengine = $capquiz->question_engine();
+        $user = $capquiz->user();
+        $quba = $user->question_usage();
+        $qengine = $capquiz->question_engine($user);
         $attempt = $qengine->attempt_for_current_user();
         $slot = $attempt->question_slot();
 

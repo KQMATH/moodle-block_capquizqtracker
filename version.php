@@ -23,7 +23,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2020091600;
+$plugin->version = 2021021100;
 $plugin->requires = 2016120500;
 $plugin->cron = 0;
 $plugin->component = 'block_capquizqtracker';
@@ -32,4 +32,4 @@ $plugin->dependencies = array(
     'local_qtracker' => ANY_VERSION, // The Bar enrolment plugin version 2014020300 or higher must be present.
 );
 $plugin->maturity = MATURITY_BETA;
-$plugin->release = '0.1.0';
+$plugin->release = '0.1.1';

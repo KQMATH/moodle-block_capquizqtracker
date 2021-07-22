@@ -24,4 +24,3 @@ CAPQuiz QTracker is licensed under the [GNU General Public, License Version 3](h
 
 - [CAPQuiz](https://moodle.org/plugins/mod_capquiz) - Computer adaptive practice activity module for Moodle
 - [Quiz QTracker](https://moodle.org/plugins/block_quizqtracker) - Moodle Question Tracker Block plugin for Moodle Quiz
-- 
